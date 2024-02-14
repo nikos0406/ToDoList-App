@@ -9,7 +9,15 @@ import SwiftUI
 
 struct RegisterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .bottomLeading) {
+                     Rectangle()
+                         .fill(Color.red)
+                        .frame(width: 100, height: 50)
+                   Rectangle()
+                       .fill(Color.blue)
+                       .frame(width:50, height: 100)
+              }
+        .border(Color.green, width: 1)
     }
 }
 
