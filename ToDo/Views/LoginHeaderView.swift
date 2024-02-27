@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HeaderView: View {
+struct LoginHeaderView: View {
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 0)
@@ -32,5 +32,5 @@ struct HeaderView: View {
 }
 
 #Preview {
-    HeaderView()
+    LoginHeaderView()
 }
