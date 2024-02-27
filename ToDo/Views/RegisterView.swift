@@ -17,7 +17,10 @@ struct RegisterView: View {
         NavigationView{
             VStack{
                 // Header
-                RegisterHeaderView()
+                HeaderView(title: "Register",
+                           subtitle: "Start organizing todos",
+                           angle: -15,
+                           background: .orange)
                 
                 // Login Form
                 Form{

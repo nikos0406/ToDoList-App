@@ -16,7 +16,7 @@
 		3108BE712B7D170800992141 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108BE702B7D170800992141 /* LoginViewViewModel.swift */; };
 		3108BE732B7D171600992141 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108BE722B7D171600992141 /* RegisterViewViewModel.swift */; };
 		3108BE752B7D172300992141 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108BE742B7D172300992141 /* ToDoListItemViewViewModel.swift */; };
-		3108BE772B7D1DE400992141 /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108BE762B7D1DE400992141 /* LoginHeaderView.swift */; };
+		3108BE772B7D1DE400992141 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108BE762B7D1DE400992141 /* HeaderView.swift */; };
 		311B56932B7CE43A00D40087 /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B56922B7CE43A00D40087 /* ToDoApp.swift */; };
 		311B56952B7CE43A00D40087 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B56942B7CE43A00D40087 /* MainView.swift */; };
 		311B56972B7CE43B00D40087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311B56962B7CE43B00D40087 /* Assets.xcassets */; };
@@ -55,7 +55,6 @@
 		311B56E42B7CEB7000D40087 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B56E32B7CEB7000D40087 /* LoginView.swift */; };
 		311B56E62B7CEB7700D40087 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B56E52B7CEB7700D40087 /* RegisterView.swift */; };
 		311B56E82B7CEBB100D40087 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B56E72B7CEBB100D40087 /* ToDoListItemView.swift */; };
-		31BA14B02B8E19FE00EDB439 /* RegisterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA14AF2B8E19FE00EDB439 /* RegisterHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +67,7 @@
 		3108BE702B7D170800992141 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		3108BE722B7D171600992141 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		3108BE742B7D172300992141 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
-		3108BE762B7D1DE400992141 /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		3108BE762B7D1DE400992141 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		311B568F2B7CE43A00D40087 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		311B56922B7CE43A00D40087 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		311B56942B7CE43A00D40087 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -81,7 +80,6 @@
 		311B56E32B7CEB7000D40087 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		311B56E52B7CEB7700D40087 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		311B56E72B7CEBB100D40087 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
-		31BA14AF2B8E19FE00EDB439 /* RegisterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,8 +189,7 @@
 				311B56E32B7CEB7000D40087 /* LoginView.swift */,
 				311B56E52B7CEB7700D40087 /* RegisterView.swift */,
 				311B56E72B7CEBB100D40087 /* ToDoListItemView.swift */,
-				3108BE762B7D1DE400992141 /* LoginHeaderView.swift */,
-				31BA14AF2B8E19FE00EDB439 /* RegisterHeaderView.swift */,
+				3108BE762B7D1DE400992141 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,8 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				311B56E42B7CEB7000D40087 /* LoginView.swift in Sources */,
-				3108BE772B7D1DE400992141 /* LoginHeaderView.swift in Sources */,
-				31BA14B02B8E19FE00EDB439 /* RegisterHeaderView.swift in Sources */,
+				3108BE772B7D1DE400992141 /* HeaderView.swift in Sources */,
 				311B56952B7CE43A00D40087 /* MainView.swift in Sources */,
 				3108BE732B7D171600992141 /* RegisterViewViewModel.swift in Sources */,
 				3108BE692B7D16D600992141 /* MainViewViewModel.swift in Sources */,
