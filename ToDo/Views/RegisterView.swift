@@ -26,8 +26,13 @@ struct RegisterView: View {
                 Form{
                     TextField("Your Name", text: $name)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocorrectionDisabled()
+                    
                     TextField("Your Email", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocorrectionDisabled()
+                        .textInputAutocapitalization(.none)
+                    
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
@@ -36,7 +41,7 @@ struct RegisterView: View {
                     ) {
                         //Attempt Register
                     }
-                    .padding()
+                    
                 }
                 .offset(y: -50)
                 

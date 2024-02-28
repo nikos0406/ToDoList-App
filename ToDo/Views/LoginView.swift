@@ -25,6 +25,9 @@ struct LoginView: View {
                 Form{
                     TextField("Email Address", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .textInputAutocapitalization(.none)
+                        .autocorrectionDisabled()
+                    
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
@@ -33,7 +36,6 @@ struct LoginView: View {
                     ) {
                         //Attempt Log In
                     }
-                    .padding()
                     
                 }
                 .offset(y: -50)
