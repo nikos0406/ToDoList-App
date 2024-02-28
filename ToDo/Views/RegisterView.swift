@@ -31,18 +31,15 @@ struct RegisterView: View {
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    Button{
-                    } label : {
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                            
-                            Text("Create Account")
-                                .foregroundColor(.white)
-                                .bold()
-                        }
+                    TLButton(text: "Create Account",
+                             color: .blue
+                    ) {
+                        //Attempt Register
                     }
+                    .padding()
                 }
+                .offset(y: -50)
+                
                 Spacer()
             }
         }

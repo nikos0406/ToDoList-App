@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HeaderView: View {
+    
     let title: String
     let subtitle: String
     let angle: Double
@@ -29,16 +30,16 @@ struct HeaderView: View {
                     .font(.system(size: 30))
                     .foregroundColor(.white)
             }
-            .padding(.top, 30)
+            .padding(.top, 80)
         }
-        .frame(width: UIScreen.main.bounds.width*3, height: 300)
-        .offset(y: -100)
+        .frame(width: UIScreen.main.bounds.width*3, height: 350)
+        .offset(y: -150)
     }
 }
 
 #Preview {
-    HeaderView(title: "To Do List",
-               subtitle: "Get things done",
+    HeaderView(title: "Title",
+               subtitle: "Subtitle",
                angle: 15,
-               background: .pink)
+               background: .blue)
 }
