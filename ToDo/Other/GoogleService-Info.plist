@@ -15,16 +15,16 @@
 	<key>STORAGE_BUCKET</key>
 	<string>swiftuitodolist-e3d01.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:81241983664:ios:8f14dafe55292b26660975</string>
+	<string>1:81241983664:ios:f53cb2772dd6eb93660975</string>
 </dict>
 </plist>
