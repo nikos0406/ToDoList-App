@@ -1,1 +1,1 @@
-Simple App-Project to learn Swift programming language.
+A simple To-Do list app.
